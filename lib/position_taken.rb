@@ -1,6 +1,6 @@
 # code your #position_taken? method here!
-def position_taken(empty)
-  if (board[index] == " ")
+def position_taken(board, position)
+  if (board[position] == " ")
     puts "False Aka empty"
   end
 end
